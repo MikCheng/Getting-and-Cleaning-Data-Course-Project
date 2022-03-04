@@ -42,7 +42,7 @@ data<-subset(data,select=selected_names)
 #Task 3: Uses descriptive activity names to name the activities in the data set
 activity_labels <- read.table(paste(sep = "", dataDir, "./UCI HAR Dataset/activity_labels.txt"))
 data$activity <- factor(data$activity, labels = activity_labels$V2)
-head(data$activity,30)
+
 
 #Task 4: Appropriately labels the data set with descriptive variable names
 names(data)<-gsub("^t", "time", names(data))
