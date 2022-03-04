@@ -1,0 +1,23 @@
+# Getting-and-Cleaning-Data-Course-Project
+Author: Mik Cheng
+Variables used in the script for the above project:
+
+ProjectrawDataDir - a string for data directory and storage purpose
+ProjectrawDataUrl - a string of link where raw data is downloaded
+ProjectrawDataFilename - filename to be saved once the raw data is downloaded
+ProjectrawDataDFn - a string for data directory and storage purpose
+dataDir - a string for data directory and storage purpose
+activity_data_test - data extraction from the raw data
+activity_data_train - data extraction from the raw data
+subject_data_test - data extraction from the raw data
+subject_data_train - data extraction from the raw data
+feature_data_test - data extraction from the raw data
+feature_data_train - data extraction from the raw data
+feature_name - data extraction from the raw data
+subject_data - row combining of subject_data_test and subject_data_train
+activity_data - row combining of activity_data_test and activity_data_train
+feature_data - row combining of feature_data_test and feature_data_train
+data - combined columns of subject_data, activity_data, and feature_data
+feature_subname - data extraction from the raw data
+selected_names - subset the data frame Data by seleted names of features
+activity_labels - data extraction from the raw data
